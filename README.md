@@ -4,7 +4,7 @@
 and websocket API. Clicksight API runs in NodeJS and uses LevelDB for storage. 
 
 This is a backend-only service. If you're looking for a web frontend application,
-take a look at our official blockchain explorer [Clicksight](https://github.com/noise23/clicksight).
+take a look at our official blockchain explorer [Clicksight](https://github.com/clickcoin-foundation/clicksight).
 
 *Clicksight API* allows everyone to develop ClickCoin-related applications (such as wallets) that 
 require certain information from the blockchain that ClickCoind does not provide.
@@ -12,7 +12,7 @@ require certain information from the blockchain that ClickCoind does not provide
 
 ## Prerequisites
 
-* **ClickCoind** - Download and install [ClickCoin](https://github.com/noise23/ClickCoin).
+* **ClickCoind** - Download and install [ClickCoin](https://github.com/clickcoin-foundation/ClickCoin).
 
 *Clicksight API* needs a *trusted* ClickCoind node to run. *Clicksight API* will connect to the node
 through the RPC API, ClickCoin peer-to-peer protocol, and will even read its raw block .dat files for syncing.
@@ -30,7 +30,7 @@ finished downloading the blockchain **before** running *Clicksight API*.
 
   To install *Clicksight API*, clone the main repository:
 
-    $ git clone https://github.com/noise23/clicksight-api.git && cd clicksight-api
+    $ git clone https://github.com/clickcoin-foundation/clicksight-api.git && cd clicksight-api
 
   Install dependencies:
 
@@ -144,7 +144,7 @@ To run the tests
 ```$ grunt test```
 
 
-Contributions and suggestions are welcome at [clicksight-api github repository](https://github.com/noise23/clicksight-api).
+Contributions and suggestions are welcome at [clicksight-api github repository](https://github.com/clickcoin-foundation/clicksight-api).
 
 ## Caching schema
 

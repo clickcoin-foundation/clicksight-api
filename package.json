@@ -6,7 +6,7 @@
     "name": "Larry Ren",
     "email": "ren@reddcoin.com"
   },
-  "repository": "git://github.com/noise23/clicksight-api.git",
+  "repository": "git://github.com/clickcoin-foundation/clicksight-api.git",
   "contributors": [
     {
       "name": "Andrew Groff",
@@ -42,9 +42,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/noise23/clicksight-api/issues"
+    "url": "https://github.com/clickcoin-foundation/clicksight-api/issues"
   },
-  "homepage": "https://github.com/noise23/clicksight-api",
+  "homepage": "https://github.com/clickcoin-foundation/clicksight-api",
   "license": "MIT",
   "keywords": [
     "clickcoin",
@@ -72,7 +72,7 @@
     "base58-native": "0.1.2",
     "bignum": "*",
     "bitauth": "^0.1.1",
-    "clickcore": "git://github.com/noise23/clickcore.git",
+    "clickcore": "git://github.com/clickcoin-foundation/clickcore.git",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
     "commander": "^2.3.0",
